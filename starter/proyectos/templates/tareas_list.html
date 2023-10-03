@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Listado de tareas
+{% endblock %}
+
+{% block content %}
+
+<div><h3>LISTADO DE TAREAS: {{ proyecto.id }}</h3>
+
+    {% for tarea in tareas %}
+
+    <div>
+
+        {% if tareas %}
+        
+        <p> {{ tarea.id_proyecto}} | {{tarea.nombre_tarea}} | {{tarea.hora_inicio}} | {{tarea.hora_final}} | {{tarea.des2}} | {{tarea.des1}}</p>
+        
+        {% else %}
+
+        <h2>No hay ninguna tarea asignada a este proyecto.</h2>
+        
+        {% endif %}
+
+    </div>
+     
+    {% endfor %}
+
+</div>
+
+{% endblock %}

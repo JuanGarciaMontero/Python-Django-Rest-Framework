@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichaje</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <legend><br><br><br>
+                <div id="demo2"></div>
+            </legend>
+            <legend>
+                <div id="demo"></div>
+            </legend>
+            <legend><strong>
+                    <h2><u>Fichaje de Trabajos</u></h2>
+                    <h3>Proyectos</h3>
+                </strong></legend>
+    <article class="container">
+        <!--<article style='display: flex; align-items:center; justify-content:center; border-radius: 10%; '>
+            <div class='pro_nuevo' style='margin: 1px;'>{$row['nombre_proyecto']} | {$row['dni_usuario']}</div>
+            <div class='pro_nuevo'style='margin: 1px;'> </div>
+            <div class='pro_nuevo'style='margin: 3px;'>{$row['dia_final']}</div>
+            <div class='pro_nuevo'style='margin: 3px;'> </div>
+            <div class='pro_nuevo'style='margin: 3px;'>{$row['prioridad']}</div>
+            <div class='pro_nuevo'style='margin: 3px;'> </div>
+            <div class='pro_nuevo2'style='margin: 3px; visibility:hidden;'>{$row['id_proyecto']}</div>
+            <div class='pro_nuevo'style='margin: 3px;'><button class='btn_pro_nuevo2' style='border-radius: 30%; height: 2rem; width: 5rem;' href='index4.php' id='ver' name='id_proyecto' value='{$row['id_proyecto']}'>VER</button> </div>
+        </article>-->
+        {% block content %}
+        {% endblock %}    
+    </article>
+</fieldset>
+</main>
+<br>
+</body>

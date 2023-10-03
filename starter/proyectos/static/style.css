@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(62, 71, 71);
+}
+main{
+    width: 30rem; 
+    display: flex; 
+    margin: 0 auto 0 auto;
+}
+fieldset{
+    border-radius: 5%; 
+    background-color: rgb(31, 121, 143); 
+    color: aliceblue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 14px;
+}
+#demo2{
+    font-size: 1.2em; 
+    font-weight: bold; 
+    float:left;
+}
+#demo{
+    font-size: 1.2em; font-weight: bold; float:right;
+}
+header{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.head1{
+    width: 30rem; 
+    display: flex; 
+    margin: 0 auto 0 auto;
+}
+#usuario{
+    border-radius: 10%;
+     width: 10rem;
+}
+#contrasena{
+    border-radius: 10%; 
+    width: 10rem;
+}
+.head{
+    padding: 5px;
+}
+.head4{
+    padding: 5px;
+    clear:left;
+}
+.head2{
+    padding: 10px;
+}
+.head3{
+    padding: 10px;
+    display:none;
+}
+#acceder{
+    border-radius: 30%; 
+    height: 2rem; 
+    width: 5rem;
+}
+.nuevo{
+    display: flex; 
+    align-items:center; 
+    justify-content:center; 
+    border-radius: 10%; 
+}
+.pro_nuevo{
+    margin: 5px;
+}
+.pro_nuevo1{
+    margin: 5px;
+    font-size: 1.1rem;
+}
+.btn_pro_nuevo2{
+    border-radius:30%; 
+    height: 2rem; 
+    width: 5rem;
+}
+
+.btn_pro_nuevo3{
+    border-radius:30%; 
+    height: 2rem; 
+    width: 10rem;
+}
+.btn_pro_nuevo22{
+    margin: 5px; 
+    visibility:hidden;
+}
+.btn_pro_nuevo4{
+    border-radius:30%; 
+    height: 2rem; 
+    width: 6rem;
+}
+.registro{
+    width: 30rem; 
+    display: flex; 
+    margin: 0 auto 0 auto;
+}
+.caja_registro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.caji_registro{
+    padding: 3px;
+}
+.caji_registro2{
+    padding: 3px;
+    clear:left;
+}
+.in_registro{
+    width:25rem; 
+    height:1.6rem;
+}
+.btn-registro{
+    border-radius: 30%; 
+    height: 2rem; 
+    width: 5rem;
+}
+.btn-registro2{
+    border-radius: 30%; 
+    height: 2rem; 
+    width: 6rem;
+}
+.foo{
+    width: 30rem; 
+    display: flex; 
+    margin: 0 auto 0 auto;
+}
+.btn-foo{
+    border-radius: 30%; 
+    height: 2rem; 
+    width: 6rem;
+}
+.btn-foo2{
+    border-radius: 30%; 
+    height: 2rem; 
+    width: 6rem;
+}
+.btn-header2{
+    border-radius: 10%;
+}
+.btn_crea_modi{
+    border-radius: 30%; 
+    height: 2rem;
+    width: 5rem;
+}
+article {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.nombre_tarea{
+    width:7rem;
+    height:1.6rem;
+}
+.hora_tarea{
+    width:4rem;
+    height:1.6rem;
+}
+.btn_tarea{
+    border-radius: 30%;
+    height: 2rem;
+    width: 4rem;
+}
+.title_resu{
+    display: flex;
+    flex-direction: row; 
+}
+.caja_resu{
+    margin: 4px;
+}
+.cont_resu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 600px) 
+{ 
+
+    .nombre_tarea{
+        width:5rem;
+        height:1.6rem;
+    }
+    .hora_tarea{
+        width:3.5rem;
+        height:1.6rem;
+    }
+    .caji_registro{
+        padding: 0.1px;
+    }
+    fieldset{
+    border-radius: 5%; 
+    background-color: rgb(31, 121, 143); 
+    color: aliceblue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 14px;
+    width: 70%;
+    }   
+}

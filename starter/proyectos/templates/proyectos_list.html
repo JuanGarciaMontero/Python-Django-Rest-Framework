@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Listado de Proyectos
+{% endblock %}
+
+{% block content %}
+
+{# TODO: Add link to registration page #}
+<div><h3>LISTADO DE PROYECTOS: </h3><br></div>
+    {% for proyecto in proyectos %}
+        <div >
+            <a href="{% url 'tareas' proyecto.id %}">{{proyecto.grupo}} | {{proyecto.nombre_proyecto}} | {{proyecto.dni_usuario}} | {{proyecto.dia_final}} | {{proyecto.prioridad}} </a><br><br>
+        </div>
+            
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
